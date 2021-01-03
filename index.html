@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="Style_Sheet/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- awesome font -->
+    <script src="https://use.fontawesome.com/a2aab040b6.js"></script>
+<!-- script  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> $(document).ready(function(){
+        $("#burgerGrid").hide()
+        $("#burgerButton").click(function(){
+          $("#burgerGrid").toggle();
+        });
+      });
+      
+      </script>
+<!-- font family -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <title>Manatime</title>
+</head>
+<body>
+     <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbarHeader">
+        <div class="absenceIcon" ><img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Absence_Icon.svg" alt=""></div>
+        <div class="absenceText">Absence</div>
+        <div class="stripes2"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/stripe2.svg" alt=""></div>
+        <div class="soldesFaIcon"><i class="fa fa-balance-scale" aria-hidden="true"></i></div>
+        <div class="sousText">Sous module</div>
+        <div class="stripes2"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/stripe2.svg" alt=""></div>
+        <div class="sousSousText">Sous sous module</div>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+            <div class="helpIcon"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Help.svg" alt=""></div>
+            <div class="settingIcon"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Settings.svg" alt=""></div>
+            <div class="surNameText">
+                <span class="nameText"> Nom et Prenom</span> <br>
+                <span class="companyText">Entreprise</span>
+            </div>
+            <div class="onlineImg"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Photo.png" alt=""><span class="onlineicon"></span></div>
+    </div>
+      </nav>
+    <!-- sidebar -->
+            <div class="sidebar">
+        <!-- burger button -->
+        <div class="burgar">
+            <button class="burgarButton" id="burgerButton"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Burger button.svg" alt=""></button>
+        </div>
+        <!-- accueil button -->
+        <div class="accueil">
+            <div class="subAccueil">
+            <span class="iconAccueil"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Accueil.svg" alt=""></span>
+            <span class="textAccueil">Accueil</span>
+        </div>
+        </div>
+        <!-- Ajouter -->
+        <div class="ajouter">
+            <div class="subAjouter">
+                <span class="iconAjouter" ><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Add.svg" alt=""></span>
+                <span class="textAjouter">Ajouter</span>
+                </div>
+        </div>
+        <!-- GradientBackground -->
+        <div class="GradientBackground">
+            <!-- Mon espace -->
+                <div class="sideNav">
+                    <div class="sidecontainer">
+                    <div class="sideNavIcon"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Mon espace.svg" alt=""></div>
+                    <div class="sideNavText">Mon espace</div>
+                    <div class="stripe"> <img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Stripe.svg" alt=""></div>
+                </div>
+        </div>
+<!-- validation -->
+<div class="sideNav">
+    <div class="sidecontainer">
+    <div class="sideNavIcon"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Validation.svg" alt=""></div>
+    <div class="sideNavText">Validation</div>
+    <div class="stripe"> <img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Stripe.svg" alt=""></div>
+</div>
+</div>
+<!-- indicateurs -->
+<div class="sideNav">
+    <div class="sidecontainer">
+    <div class="sideNavIcon"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Indicateurs.svg" alt=""></div>
+    <div class="sideNavText">Indicateurs</div>
+    <div class="stripe"> <img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Stripe.svg" alt=""></div>
+</div>
+</div>
+<!-- soldes -->
+<div class="soldes">
+    <div class="subSoldes">
+        <div class="soldesIcon">
+            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+            <!-- <img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Soldes.svg" alt=""> -->
+            </div>
+        <div class="textSoldes">Soldes</div>
+        <div class="stripeUp">
+            <i class="fa fa-angle-up" aria-hidden="true"></i></div>
+    </div> 
+    <div class="subFile text-right">
+    <div class="gestionText mt-2 mb-2">Gestion des soldes</div>
+    <div class="subText mb-2">Ajuster un solde</div>
+    <div class="subText mb-2">Compteurs</div>
+    <div class="subText">Historique</div>
+    </div>
+</div>
+ <!--Recherche  -->
+ <div class="sideNav">
+    <div class="sidecontainer">
+        <div class="sideNavIcon"><img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Recherche.svg" alt=""></div>
+        <div class="sideNavText">Recherche</div>
+        <div class="stripe"> <img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Stripe.svg" alt=""></div>
+    </div> 
+</div>
+<!-- grapic -->
+<div class="graphic">
+    <img src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Graphic.svg" alt="">
+</div>
+    </div>
+    </div>    
+            <!-- center container -->
+            <div class="centerContainer">
+                <table class="table-bordered table-striped table-responsive-sm ">
+                    <thead>
+                      <tr>
+                        <th class="headerCol1">Utilisateurs</th>
+                        <th class="headerCol1">Catégorie</th>
+                        <th class="headerCol2">Période</th>
+                        <th class="headerCol2">Solde actuel </th>
+                        <th class="headerCol2">Solde pris</th>
+                        <th class="headerCol2">Solde futur</th>
+                        <th class="headerCol3"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <!-- column one -->
+                      <tr>
+                        <td class="column1">Darléne Menson</td>
+                        <td  class="column1">
+                            <div class="circle">
+                                <div class="orangeCircle"></div>
+                        <div class="columnText">Congés payés</div>
+                            </div> 
+                        </td>
+                        <td  class="column2">2020-2021</td>
+                        <td class="column2">16</td>
+                        <td class="column2">10</td>
+                        <td class="column2">34</td>
+                        <td class="column3"><span><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                            <span><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                            <span><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                </td>
+                      </tr>
+                 <!-- column two -->
+                      <tr>
+                        <td class="column1">Marlon Brandon</td>
+                        <td  class="column1" >
+                            <div class="circle">
+                                <div class="purpleCircle"></div>
+                        <div class="columnText">RIT</div>
+                            </div>
+                        </td> 
+                        <td  class="column2">2020</td>
+                        <td class="column2">3</td>
+                        <td class="column2">25</td>
+                        <td class="column2">20</td>
+                        <td class="column3"><span ><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                            <span ><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                            <span ><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                </td>
+                      </tr>
+                <!-- column three -->
+                                              <tr>
+                                                <td class="column1">Darléne Menson</td>
+                                                <td  class="column1" > 
+                                                    <div class="circle">
+                                                        <div class="orangeCircle"></div>
+                                                <div class="columnText">Congés payés</div>
+                                                    </div> 
+                                                </td>
+                                                <td  class="column2">2020-2021</td>
+                                                <td class="column2">16</td>
+                                                <td class="column2">10</td>
+                                                <td class="column2">34</td>
+                                                <td class="column3"><span><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                                    <span><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                                    <span><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                                        </td>
+                                              </tr>
+                                         <!-- column four -->
+                                              <tr>
+                                                <td class="column1">Marlon Brandon</td>
+                                                <td  class="column1" > 
+                                                    <div class="circle">
+                                                        <div class="purpleCircle"></div>
+                                                <div class="columnText">RIT</div>
+                                                    </div>    
+                                                </td>
+                                                <td  class="column2">2020</td>
+                                                <td class="column2">3</td>
+                                                <td class="column2">25</td>
+                                                <td class="column2">20</td>
+                                                <td class="column3">
+                                                    <span ><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                                    <span ><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                                    <span ><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                                        </td>
+                                              </tr>
+                        <!-- column five -->
+                        <tr>
+                            <td class="column1">Darléne Menson</td>
+                            <td  class="column1" > 
+                                <div class="circle">
+                                    <div class="orangeCircle"></div>
+                            <div class="columnText">Congés payés</div>
+                                </div> 
+                            </td>
+                            <td  class="column2">2020-2021</td>
+                            <td class="column2">16</td>
+                            <td class="column2">10</td>
+                            <td class="column2">34</td>
+                            <td class="column3"><span><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                     <!-- column six -->
+                          <tr>
+                            <td class="column1">Marlon Brandon</td>
+                            <td  class="column1" >
+                                <div class="circle">
+                                    <div class="purpleCircle"></div>
+                            <div class="columnText">RIT</div>
+                                </div>
+                            </td>
+                            <td  class="column2">2020</td>
+                            <td class="column2">3</td>
+                            <td class="column2">25</td>
+                            <td class="column2">20</td>
+                            <td class="column3"><span ><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span ><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span ><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                        <!-- column seven -->
+                        <tr>
+                            <td class="column1">Darléne Menson</td>
+                            <td  class="column1" >
+                                <div class="circle">
+                                    <div class="orangeCircle"></div>
+                            <div class="columnText">Congés payés</div>
+                                </div> 
+                            </td>
+                            <td  class="column2">2020-2021</td>
+                            <td class="column2">16</td>
+                            <td class="column2">10</td>
+                            <td class="column2">34</td>
+                            <td class="column3"><span><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                     <!-- column eight -->
+                          <tr>
+                            <td class="column1">Marlon Brandon</td>
+                            <td  class="column1" >
+                                <div class="circle">
+                                    <div class="purpleCircle"></div>
+                            <div class="columnText">RIT</div>
+                                </div>     
+                            </td>
+                            <td  class="column2">2020</td>
+                            <td class="column2">3</td>
+                            <td class="column2">25</td>
+                            <td class="column2">20</td>
+                            <td class="column3"><span ><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span ><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span ><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                        <!-- column nine -->
+                        <tr>
+                            <td class="column1">Darléne Menson</td>
+                            <td  class="column1" >
+                                <div class="circle">
+                                    <div class="orangeCircle"></div>
+                            <div class="columnText">Congés payés</div>
+                                </div> 
+                            </td>
+                            <td  class="column2">2020-2021</td>
+                            <td class="column2">16</td>
+                            <td class="column2">10</td>
+                            <td class="column2">34</td>
+                            <td class="column3"><span><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                     <!-- column ten -->
+                          <tr>
+                            <td class="column1">Marlon Brandon</td>
+                            <td  class="column1" >
+                                <div class="circle">
+                                    <div class="purpleCircle"></div>
+                            <div class="columnText">RIT</div>
+                                </div>    
+                            </td>
+                            <td  class="column2">2020</td>
+                            <td class="column2">3</td>
+                            <td class="column2">25</td>
+                            <td class="column2">20</td>
+                            <td class="column3"><span ><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span ><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span ><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                        <!-- column eleven -->
+                        <tr>
+                            <td class="column1">Darléne Menson</td>
+                            <td  class="column1" >
+                                <div class="circle">
+                                    <div class="orangeCircle"></div>
+                            <div class="columnText">Congés payés</div>
+                                </div> 
+                            </td>
+                            <td  class="column2">2020-2021</td>
+                            <td class="column2">16</td>
+                            <td class="column2">10</td>
+                            <td class="column2">34</td>
+                            <td class="column3"><span><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                     <!-- column tweleve -->
+                          <tr>
+                            <td class="column1">Marlon Brandon</td>
+                            <td  class="column1" > 
+                                <div class="circle">
+                                    <div class="purpleCircle"></div>
+                            <div class="columnText">RIT</div>
+                                </div>
+                            </td>
+                            <td  class="column2">2020</td>
+                            <td class="column2">3</td>
+                            <td class="column2">25</td>
+                            <td class="column2">20</td>
+                            <td class="column3"><span ><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span ><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span ><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                        <!-- column thirteen -->
+                        <tr>
+                            <td class="column1">Darléne Menson</td>
+                            <td  class="column1" >
+                                <div class="circle">
+                                    <div class="orangeCircle"></div>
+                            <div class="columnText">Congés payés</div>
+                                </div> 
+                            </td>
+                            <td  class="column2">2020-2021</td>
+                            <td class="column2">16</td>
+                            <td class="column2">10</td>
+                            <td class="column2">34</td>
+                            <td class="column3"><span><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+                     <!-- column fourteen -->
+                          <tr>
+                            <td class="column1">Marlon Brandon</td>
+                            <td  class="column1" >
+                                <div class="circle">
+                                    <div class="purpleCircle"></div>
+                            <div class="columnText">RIT</div>
+                                </div>
+                            </td>
+                            <td  class="column2">2020</td>
+                            <td class="column2">3</td>
+                            <td class="column2">25</td>
+                            <td class="column2">20</td>
+                            <td class="column3"><span ><img class="columnImg1" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Ajuster.svg" alt=""> </span>
+                                <span ><img class="columnImg2" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Transferer.svg" alt=""> </span>
+                                <span ><img class="columnImg3" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Solder.svg" alt=""> </span>
+                    </td>
+                          </tr>
+
+                     </tbody>
+                  </table>
+                  </div>
+                  <!-- grid container -->
+                  <div class="gridContainer" id="burgerGrid">
+                  <div class="openGrid">
+                      <div class="Logocontainer text">
+                          <div class="text-center">
+                        <img class="logo" src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Logo.svg" alt="">
+                          </div>
+
+                      </div>
+                      <div class="container ml-3">
+                        <div class="row">
+                            <div class="grid">
+                                <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_Planning.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Planning
+                                </div>
+                                </div>
+                            </div>
+                            <div class="activeText"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_Absences.svg" alt="">
+                                </div>
+                                <div>
+                                    Absence
+                                </div>
+                                </div></div>
+                            <div class="grids"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_Heures.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Heures
+                                </div>
+                                </div></div>
+                            <div class="grids"> <div class="text-center mt-3">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_NotedeFrais.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Note de Frais
+                                </div>
+                                </div></div>
+                            <div class="grid"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_Présence.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Présence
+                                </div>
+                                </div></div>
+                            <div class="grids"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_Compétences.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Compétences
+                                </div>
+                                </div></div>
+                            <div class="grids"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_SalaireetPAie.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Salaire et PAie
+                                </div>
+                                </div></div>
+                            <div class="grids"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_Entretiens.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Entretiens
+                                </div>
+                                </div></div>
+                            <!-- Force next columns to break to new line at md breakpoint and up -->
+                            <div class="w-100 d-none d-md-block"></div>
+                          
+                            <div class="grid"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_Matériels.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Matériels
+                                </div>
+                                </div></div>
+                            <div class="grids"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Mdule_Documents.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    Documents
+                                </div>
+                                </div></div>
+                            <div class="grids"> <div class="text-center">
+                                <div>
+                                    <img  src="ManatimeTest_Library-20201226T124910Z-001/ManatimeTest_Library/Module_RH.svg" alt="">
+                                </div>
+                                <div class="gridText">
+                                    RH
+                                </div>
+                                </div></div>
+                          </div>      
+                    </div>
+                  </div>
+                  <div class="graySide">
+
+                  </div>
+                  </div>
+                  </body>
+</html>
